@@ -1,0 +1,101 @@
+body{
+  background-color: #1e1e1e;
+}
+.logo{
+width: 20%;
+height: 20%;
+}
+.btn-custom {
+  background-color:rgb(187, 12, 12);
+}
+.heading {
+  color: white;
+}
+.searchbox {
+  background-color: transparent;
+  height:40px;
+}
+.container-fluid {
+  height: 100vh;
+  width: 100%;
+  background-image: url(Assets/background.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.collapse {
+  justify-content: end;
+}
+.searchbox {
+  width: 300px;
+  border: 2px solid white;
+  height: 55px;
+  border-radius: 10px;
+}
+.btn{
+  width: 150px;
+  height: 50px;
+}
+.nav-link {
+  background-color:rgb(187, 12, 12);
+  border-radius: 7px;
+  width: 100px;
+  height: 40px;
+  color: white;
+}
+.nav-link:hover {
+  background-color:rgb(163, 33, 33);
+  color: white;
+}
+h1 {
+  font-weight: bolder;
+}
+h2 {
+  font-weight: bolder;
+}
+.portions {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid green; */
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.headings {
+  font-size: x-large;
+}
+.portion-image {
+  float: left;
+}
+.image1 {
+  height:300px;
+  width: 450px;
+}
+hr {
+  size: 2px;
+}
+.portion-image2 {
+  
+}
+.headings2 {
+  font-size: x-large;
+}
+.portions2 {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid green; */
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.image2 {
+  height: 300px;
+  width: 350px;
+  float: right; !important
+}
